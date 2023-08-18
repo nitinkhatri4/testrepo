@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>CSS Model Car</title>
+  <style>
+    body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.car {
+  position: relative;
+  width: 200px;
+  height: 60px;
+  background-color: #333;
+  border-radius: 10px;
+}
+
+.body {
+  position: absolute;
+  width: 160px;
+  height: 50px;
+  background-color: #444;
+  top: 5px;
+  left: 20px;
+  border-radius: 5px;
+}
+
+.roof {
+  position: absolute;
+  width: 80px;
+  height: 25px;
+  background-color: #444;
+  top: -25px;
+  left: 60px;
+  border-radius: 5px;
+}
+
+.windows {
+  position: absolute;
+  top: 10px;
+  left: 140px;
+}
+
+.window {
+  width: 40px;
+  height: 20px;
+  background-color: #6bb9f0;
+  margin: 5px;
+  border-radius: 3px;
+}
+
+.wheels {
+  position: absolute;
+  top: 50px;
+  left: 20px;
+}
+
+.wheel {
+  width: 30px;
+  height: 30px;
+  background-color: #333;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+  </style>
+</head>
+<body>
+  <div class="car">
+    <div class="body"></div>
+    <div class="roof"></div>
+    <div class="windows">
+      <div class="window"></div>
+      <div class="window"></div>
+    </div>
+    <div class="wheels">
+      <div class="wheel"></div>
+      <div class="wheel"></div>
+    </div>
+  </div>
+
+</body>
+</html>
+

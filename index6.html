@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+     <body>
+        <form>
+            <label style="color: blue;">name:</label>
+            <input type="text" required placeholder="enter your name">
+            <input type="submit" value="submit">
+            <br><br>
+            <label for="password">password:</label>
+            <input id="password" type="password" disabled placeholder="enter your password">
+            
+            <br><br>
+            <label for="date">date:</label>
+            <input id="date" type="date" min="2023-08-15" max="2023-08-25">
+            <br><br>
+            <label for="email">email:</label>
+            <input id="email" type="email" placeholder="enter your email">
+            
+            <br><br>
+            <label for="file">file:</label>
+            <input type="file" id="file" multiple accept="image/*" >
+            <br><br>
+            <label for="datetime">date and time:</label>
+            <input type="datetime-local" id="datetime">
+            <br><br>
+            <label for="age">age:</label>
+            <input type="number" id="age" placeholder="enter your age" min="25" max="50">
+            
+            <br><br>
+            <label for="image">college:</label>
+            <input id="image" type="image" src="/image/d0cc8dab3c287ab9e7b3de1c5274814c--forced-perspective-photography-perspective-photos.webp" width="200px">
+            <br><br>
+            <label>choose gender:</label>
+
+            <input type="radio" id="male" name="gr">
+            <label for="male">Man</label>
+
+            <input type="radio" id="female" name="gr">
+            <label for="female">Woman</label>
+
+           
+            <br><br>
+            <label>choose product:</label>
+
+            <input type="checkbox" id="android" name="pr" >
+            <label for="android"><i class="fa-solid fa-house fa-beat-fade" style="color: #38c27b;"></i>android</label>
+
+            <input type="checkbox" id="ios" name="pr">
+            <label for="ios">ios</label>
+
+           
+            <br><br>
+            <select>
+                <option>name
+                </option>
+                <option>place</option>
+                <option >thing</option>
+                <option disabled>animal</option>
+
+               
+
+            </select>
+
+            <br><br>
+
+            <select>
+                <optgroup label="g1" >
+                    <option>name</option>
+                    <option>place</option>
+                    
+                </optgroup>
+                    <optgroup label="g2">
+                        <option >thing</option>
+                        <option disabled>animal</option>
+                    </optgroup>
+                    
+                
+            </select>
+
+        </form>
+     </body>
+</html>
